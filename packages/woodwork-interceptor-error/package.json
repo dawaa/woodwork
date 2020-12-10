@@ -1,0 +1,24 @@
+{
+  "name": "woodwork-interceptor-error",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Alejandro Andersson <alejandro@thelad.io>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/woodwork-interceptor-error.js",
+  "directories": {
+    "lib": "lib",
+    "tests": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha \"tests/*.js\""
+  },
+  "devDependencies": {
+    "earljs": "^0.1.6",
+    "mocha": "^8.2.1",
+    "sinon": "^9.2.1"
+  }
+}

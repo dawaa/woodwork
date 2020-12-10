@@ -1,0 +1,16 @@
+{
+  "name": "woodwork",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": "lerna run test",
+    "diff": "lerna diff"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
