@@ -1,6 +1,6 @@
 {
   "name": "woodwork-interceptor-error",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Used with woodwork-logger, handles Error's and exposes non-enumerable properties for you.",
   "author": "Alejandro Andersson <alejandro@thelad.io>",
   "homepage": "",
