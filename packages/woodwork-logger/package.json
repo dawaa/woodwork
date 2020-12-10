@@ -1,7 +1,7 @@
 {
   "name": "woodwork-logger",
   "version": "0.0.1",
-  "description": "> TODO: description",
+  "description": "The easy way of sending frontend logs to a backend service. HTTP client agnostic and powered by \"interceptors\" to transform your logs before dispatching them.",
   "author": "Alejandro Andersson <alejandro@thelad.io>",
   "homepage": "",
   "license": "MIT",
