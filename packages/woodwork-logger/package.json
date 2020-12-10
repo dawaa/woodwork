@@ -3,9 +3,25 @@
   "version": "0.0.2",
   "description": "The easy way of sending frontend logs to a backend service. HTTP client agnostic and powered by \"interceptors\" to transform your logs before dispatching them.",
   "author": "Alejandro Andersson <alejandro@thelad.io>",
-  "homepage": "",
+  "homepage": "https://github.com/dawaa/woodwork",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawaa/woodwork.git",
+    "directory": "packages/woodwork-logger"
+  },
   "license": "MIT",
   "main": "lib/woodwork-logger.js",
+  "keywords": [
+    "woodwork",
+    "woodwork-logger",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "loglevel",
+    "tools",
+    "json"
+  ],
   "directories": {
     "lib": "lib",
     "tests": "tests"

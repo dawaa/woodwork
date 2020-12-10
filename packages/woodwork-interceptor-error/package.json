@@ -3,9 +3,26 @@
   "version": "0.0.2",
   "description": "Used with woodwork-logger, handles Error's and exposes non-enumerable properties for you.",
   "author": "Alejandro Andersson <alejandro@thelad.io>",
-  "homepage": "",
+  "homepage": "https://github.com/dawaa/woodwork",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawaa/woodwork.git",
+    "directory": "packages/woodwork-interceptor-error"
+  },
   "license": "MIT",
   "main": "lib/woodwork-interceptor-error.js",
+  "keywords": [
+    "woodwork",
+    "woodwork-logger",
+    "woodwork-interceptor-error",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "loglevel",
+    "tools",
+    "error"
+  ],
   "directories": {
     "lib": "lib",
     "tests": "tests"
