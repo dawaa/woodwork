@@ -114,6 +114,30 @@ describe('woodwork', () => {
       expect(httpStub.callCount).toEqual(0);
     });
 
+    it('logs info-log on automatic flush', () => {
+      decache('../lib/woodwork-logger');
+      global.window = global;
+      sandbox.stub(global, 'setTimeout');
+      woodwork = require('../lib/woodwork-logger');
+      logger = woodwork.create('service-a', {
+        request: (events) => {
+          superagent
+            .post('http://backend-service')
+            .send({ events });
+        },
+      });
+
+      const message = 'Just casual information about what the user is doing';
+      logger.info(message);
+      const callbackFn = global.setTimeout.firstCall.firstArg;
+      callbackFn();
+
+      expect(logger.events.length).toEqual(0);
+      expect(httpStub.callCount).toEqual(1);
+      expect(global.setTimeout.callCount).toEqual(2);
+      delete global.window;
+    });
+
     it('logs info-log and manually dispatch', () => {
       const message = 'Just casual information about what the user is doing';
       logger.info(message);

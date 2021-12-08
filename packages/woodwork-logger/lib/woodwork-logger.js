@@ -25,7 +25,8 @@ WoodworkLogger.create = function create(name, opts) {
   const logger = new WoodworkLogger(name, merge({ clientId: clientIdUtils.getClientId() }, opts));
   instances[name] = logger;
 
-  typeof window !== 'undefined' && safeInterval(logger.flush, FLUSH_INTERVAL);
+  typeof window !== 'undefined'
+    && safeInterval(logger.flush.bind(logger), FLUSH_INTERVAL);
 
   return logger;
 }
