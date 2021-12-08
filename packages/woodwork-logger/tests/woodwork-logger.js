@@ -175,6 +175,11 @@ describe('woodwork', () => {
         ],
       })
     });
+
+    it('does not call opts.request() if no events to log', () => {
+      logger.flush();
+      expect(httpStub.callCount).toEqual(0);
+    });
   });
 
   describe('interceptors', () => {

@@ -40,7 +40,7 @@ WoodworkLogger.get = function get(name) {
 }
 
 proto.flush = function flush() {
-  if (!this.events) {
+  if (!this.events.length) {
     return;
   }
 
