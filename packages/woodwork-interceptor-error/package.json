@@ -34,8 +34,8 @@
     "test": "mocha \"tests/*.js\""
   },
   "devDependencies": {
-    "earljs": "^0.1.6",
-    "mocha": "^8.2.1",
-    "sinon": "^9.2.1"
+    "earljs": "^0.1.12",
+    "mocha": "^9.1.3",
+    "sinon": "^12.0.1"
   }
 }
