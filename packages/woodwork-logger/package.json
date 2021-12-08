@@ -1,6 +1,6 @@
 {
   "name": "woodwork-logger",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The easy way of sending frontend logs to a backend service. HTTP client agnostic and powered by \"interceptors\" to transform your logs before dispatching them.",
   "author": "Alejandro Andersson <alejandro@thelad.io>",
   "homepage": "https://github.com/dawaa/woodwork",
@@ -42,6 +42,6 @@
     "terser-webpack-plugin": "^5.2.5",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
-    "woodwork-interceptor-error": "^0.0.3"
+    "woodwork-interceptor-error": "^0.0.4"
   }
 }
